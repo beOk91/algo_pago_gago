@@ -1,4 +1,4 @@
-package kh.programmers;
+package kh.programmers.거리두기_확인하기;
 
 
 class Solution {
@@ -82,7 +82,7 @@ class Solution {
     }
 }
 
-public class DistanceCheck {
+public class Main {
     public static void main(String[] args) {
         Solution s = new Solution();
         String[][] places = new String[][] {
