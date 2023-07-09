@@ -1,6 +1,7 @@
 package kh.programmers.모음_사전;
 
-import java.util.PriorityQueue;
+import java.util.ArrayList;
+import java.util.List;
 
 class Solution {
 
@@ -8,34 +9,22 @@ class Solution {
 
     public int solution(String word) {
         int answer = 0;
-        PriorityQueue<String> dict = new PriorityQueue<>();
+        List<String> dict = new ArrayList<>();
+        makeWord("", dict);
 
-        for (int i = 1; i <= 5; i++) {
-            makeWord(i, "", dict);
-        }
-
-        int idx = 1;
-
-        while(!dict.isEmpty()) {
-            String curWord = dict.remove();
-            if (curWord.equals(word)) {
-                answer = idx;
-                break;
-            }
-            idx++;
-        }
+        answer = dict.indexOf(word);
 
         return answer;
     }
 
-    private void makeWord(int n, String word, PriorityQueue<String> dict) {
-        if (word.length() == n) {
-            dict.add(word);
+    private void makeWord(String word, List<String> dict) {
+        dict.add(word);
+        if (word.length() == 5) {
             return;
         }
 
         for (int i = 0; i < 5; i++) {
-            makeWord(n, word + alphabet[i], dict);
+            makeWord(word + alphabet[i], dict);
         }
     }
 }
