@@ -21,3 +21,18 @@ public class Main {
         }
     }
 }
+
+//클래스 사용 대신 배열로 풀 경우 
+// for(int i=0;i<n;i++){
+//       arr[i] = br.readLine();
+//     }
+
+//     for(int i=0;i<n;i++){
+//       for(int j=i+1;j<n;j++){
+//         if(arr[i]>arr[j]){
+//           temp=arr[i];
+//           arr[i] = arr[j];
+//           arr[j] = temp;
+//         }
+//       }
+//     }
