@@ -1,4 +1,4 @@
-package kmz.baekjoon.silver.dataStructure;
+package kmz.baekjoon.dataStructure;
 
 import java.io.BufferedReader;
 import java.io.IOException;
