@@ -14,7 +14,7 @@ class Stack:
 
     def push(self, x):
         self.stack.append(x)
-    
+
     def pop(self):
         if self.isEmpty():
             return -1
