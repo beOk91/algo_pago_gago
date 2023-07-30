@@ -12,7 +12,7 @@ class stack {
 	public stack(int size) {
 		top = -1;
 		stack = new int[size + 1];
-		this.size = size;
+		this.size= size;
 	}
 
 	public void push(int value) {
