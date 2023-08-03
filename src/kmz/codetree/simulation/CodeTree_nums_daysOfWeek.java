@@ -7,8 +7,7 @@ import java.util.StringTokenizer;
 
 public class CodeTree_nums_daysOfWeek {
     /*
-     * 2024년 m1월 d1일이 월요일 이었다면, 2024년 m2월 d2까지 A 요일은 몇 번 등장하는지 구하는 프로그램을 작성해보세요.
-     * 단, 2024년은 윤년이기 때문에 2월은 29일까지 있으며, (m2월 d2일)이 (m1월 d1일)보다 앞선 날짜로 주어지는 경우는 없다고 가정해도 좋습니다.
+     * https://www.codetree.ai/missions/5/problems/the-day-of-the-day?utm_source=clipboard&utm_medium=text
      */
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

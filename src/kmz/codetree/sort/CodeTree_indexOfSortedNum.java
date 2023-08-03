@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class CodeTree_indexOfSortedNum {
     /*
-    * 양의 정수를 원소로 갖는 길이가 N인 수열이 입력으로 주어졌을 때, 이 수열을 오름차순으로 정렬 했을 때 각각의 위치에 있던 원소가 어느 위치로 이동하는지 출력하는 코드를 작성해보세요.
+    * https://www.codetree.ai/missions/5/problems/indices-of-sorted-array?utm_source=clipboard&utm_medium=text
     */
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

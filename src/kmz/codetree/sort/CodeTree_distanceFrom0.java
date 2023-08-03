@@ -8,8 +8,7 @@ import java.util.StringTokenizer;
 
 public class CodeTree_distanceFrom0 {
     /*
-    * 2차 평면 위에 N개의 점이 주어졌을 때, 원점에서 가까운 점부터 순서대로 번호를 출력하는 프로그램을 작성해보세요. 거리가 같은 점이 여러 개인 경우, 번호가 작은 점 부터 출력합니다.
-    * 단, 여기서의 거리란 멘하턴 거리를 의미합니다. 두 점 (x1, y1), (x2, y2) 사이의 멘하턴 거리는 |x1 - x2| + |y1 - y2|로 정의됩니다.
+    * https://www.codetree.ai/missions/5/problems/distance-from-origin?utm_source=clipboard&utm_medium=text
     */
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
