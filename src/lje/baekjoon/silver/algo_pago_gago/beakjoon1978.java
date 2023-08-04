@@ -1,3 +1,4 @@
+package algo_pago_gago;
 
 	import java.io.BufferedReader;
 	import java.io.IOException;
