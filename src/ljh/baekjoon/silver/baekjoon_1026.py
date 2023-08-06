@@ -1,5 +1,5 @@
 #  baekjoon 알고리즘 1026
-# 2023.08.03 이주현
+# 2023.08.04 이주현
 import sys
 
 num_of_a = int(sys.stdin.readline())
