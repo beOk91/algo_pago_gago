@@ -1,4 +1,4 @@
-package kjy;
+package kjy.week_01;
 
 import java.util.HashMap;
 import java.util.Map;

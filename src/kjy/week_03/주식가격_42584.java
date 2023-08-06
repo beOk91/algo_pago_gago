@@ -1,4 +1,4 @@
-package kjy;
+package kjy.week_03;
 
 public class 주식가격_42584 {
     public int[] solution(int[] prices) {

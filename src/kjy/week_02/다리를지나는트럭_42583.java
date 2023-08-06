@@ -1,4 +1,4 @@
-package kjy;
+package kjy.week_02;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

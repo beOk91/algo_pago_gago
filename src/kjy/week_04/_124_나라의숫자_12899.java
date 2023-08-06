@@ -1,4 +1,4 @@
-package kjy;
+package kjy.week_04;
 
 public class _124_나라의숫자_12899 {
     public String solution(int n) {

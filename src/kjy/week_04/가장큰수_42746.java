@@ -1,4 +1,4 @@
-package kjy;
+package kjy.week_04;
 
 import java.util.ArrayList;
 import java.util.Collections;
