@@ -1,4 +1,4 @@
-package algo_pago_gago;
+package lje.baekjoon.silver;
 
 public class beakjoon {
 
