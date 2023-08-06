@@ -1,3 +1,4 @@
+package algo_pago_gago;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class beakjoon11650{
+public class beakjoon11651{
 	static int arr[][];
 
 	public static void main(String[] args) throws IOException {
@@ -24,17 +25,19 @@ public class beakjoon11650{
 		}
 		
 	Arrays.sort(arr, (arr_1, arr_2) -> {
-		if(arr_1[0] == arr_2[0]) {
-			return arr_1[1]-arr_2[1];
+		if(arr_1[1] == arr_2[1]) {
+			return arr_1[0]-arr_2[0];
 		}else {
-			return arr_1[0] - arr_2[0];
+			return arr_1[1] - arr_2[1];
 		}
 	});
+	StringBuilder sb = new StringBuilder();
 
 	for(int i=0;i<N;i++) {
-		System.out.println(arr[i][0] + " " + arr[i][1]);
+		sb.append(arr[i][0] + " " + arr[i][1]+'\n');
 	}
-	
+
+	System.out.println(sb);
 	}
 	
 
