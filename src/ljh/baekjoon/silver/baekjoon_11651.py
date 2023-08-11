@@ -12,7 +12,6 @@ for _ in range(num_of_dots):
     
     dots_list.append(dot)
 
-print(dots_list)
 dots_list = sorted(dots_list) # list도 sort 가 먹는다!
 
 for dot in dots_list:
