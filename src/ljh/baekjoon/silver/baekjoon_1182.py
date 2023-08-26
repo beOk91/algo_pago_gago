@@ -4,12 +4,6 @@
 import sys
 from itertools import combinations # combination 라이브러리 확인 
 
-def calculate(depth , count, sum):
-    
-    if depth == count:
-        return sum
-
-    calculate()
 num , target = map(int , sys.stdin.readline().split())
 
 n_list = list(map(int , sys.stdin.readline().split()))
