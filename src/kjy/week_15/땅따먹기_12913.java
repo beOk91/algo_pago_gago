@@ -1,0 +1,20 @@
+package kjy.week_15;
+
+import java.util.Arrays;
+
+public class 땅따먹기_12913 {
+    int solution(int[][] land) {
+        int size = land.length;
+        for (int i = 1; i < size; i++) {
+            land[i][0] += Math.max(land[i - 1][1],
+                                   Math.max(land[i - 1][2], land[i - 1][3]));
+            land[i][1] += Math.max(land[i - 1][0],
+                                   Math.max(land[i - 1][2], land[i - 1][3]));
+            land[i][2] += Math.max(land[i - 1][0],
+                                   Math.max(land[i - 1][1], land[i - 1][3]));
+            land[i][3] += Math.max(land[i - 1][0],
+                                   Math.max(land[i - 1][1], land[i - 1][2]));
+        }
+        return Arrays.stream(land[size - 1]).max().getAsInt();
+    }
+}
